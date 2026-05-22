@@ -1,4 +1,4 @@
-# 🌊 Sea Level Rise Predictor
+#  Sea Level Rise Predictor
 
 An interactive data analysis dashboard that visualizes global sea level rise from 1880 to 2014, with linear regression forecasts to 2050 (and beyond).
 
@@ -6,7 +6,7 @@ Built with **Python · Pandas · Plotly · Streamlit · SciPy**.
 
 ---
 
-## 📊 What it does
+## What it does
 
 - Loads CSIRO adjusted sea level records (1880–2014)
 - Computes two linear regressions:
@@ -22,11 +22,11 @@ The post-2000 rate of sea level rise is approximately **60% faster** than the hi
 
 ---
 
-## 🚀 Getting started
+##  Getting started
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/sea-level-predictor.git
+git clone https://github.com/pmash634/sea-level-predictor.git
 cd sea-level-predictor
 ```
 
@@ -96,7 +96,7 @@ sea-level-predictor/
 
 ---
 
-## ☁️ Deploy to Streamlit Cloud (free)
+## ☁️ eploy to Streamlit Cloud (free)
 
 1. Push this repo to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
@@ -106,13 +106,13 @@ sea-level-predictor/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
-**Purity** · Applied Statistics with Programming · Murang'a University  
+**Purity wanjiku macharia** · Applied Statistics with Programming · Murang'a University  
 Built as a portfolio project for data analysis internship applications.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use and adapt.
