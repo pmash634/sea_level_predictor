@@ -50,33 +50,24 @@ python src/sea_level_analysis.py
 
 ---
 
-## 📁 Project structure
+##  Project structure
 
 ```
 sea-level-predictor/
-│
-├── README.md
-├── requirements.txt
-│
-├── data/
-│   └── epa-sea-level.csv        # CSIRO adjusted sea level dataset
-│
-├── src/
-│   └── sea_level_analysis.py    # Core analysis: load, regress, plot
-│
-├── dashboard/
-│   └── app.py                   # Streamlit interactive dashboard
-│
-├── output/
-│   └── sea_level_plot.png       # Static chart output
-│
-└── notebooks/
-    └── exploration.ipynb        # EDA and methodology notes
-```
 
----
-
-## 📦 Data source
+README.md
+requirements.txt
+data/
+epa-sea-level.csv        # CSIRO adjusted sea level dataset
+src/
+ sea_level_analysis.py    # Core analysis: load, regress, plot
+dashboard/
+ app.py                   # Streamlit interactive dashboard
+ output/
+ sea_level_plot.png       # Static chart output
+notebooks/
+ exploration.ipynb        # EDA and methodology notes
+## Data source
 
 - **Dataset**: [EPA Global Mean Sea Level](https://www.epa.gov/climate-indicators/climate-change-indicators-sea-level)
 - **Measurement**: CSIRO adjusted sea level (inches relative to 1990 baseline)
@@ -87,16 +78,15 @@ sea-level-predictor/
 ## 🛠 Tech stack
 
 | Tool | Purpose |
-|------|---------|
-| `pandas` | Data loading and manipulation |
-| `scipy.stats.linregress` | Linear regression |
+pandas` | Data loading and manipulation |
+scipy.stats.linregress` | Linear regression |
 | `plotly` | Interactive charts in dashboard |
 | `matplotlib` | Static chart export |
 | `streamlit` | Dashboard framework |
 
 ---
 
-## ☁️ eploy to Streamlit Cloud (free)
+## Deploy to Streamlit Cloud 
 
 1. Push this repo to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
@@ -109,10 +99,5 @@ sea-level-predictor/
 ## Author
 
 **Purity wanjiku macharia** · Applied Statistics with Programming · Murang'a University  
-Built as a portfolio project for data analysis internship applications.
 
----
 
-##  License
-
-MIT — free to use and adapt.
