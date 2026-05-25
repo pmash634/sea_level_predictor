@@ -2,7 +2,7 @@
 
 An interactive data analysis dashboard that visualizes global sea level rise from 1880 to 2014, with linear regression forecasts to 2050 (and beyond).
 
-Built with **Python · Pandas · Plotly · Streamlit · SciPy**.
+Built with Python · Pandas · Plotly · Streamlit · SciPy.
 
 ---
 
@@ -91,13 +91,13 @@ scipy.stats.linregress` | Linear regression |
 1. Push this repo to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Connect your GitHub repo
-4. Set **main file path** to `dashboard/app.py`
-5. Click **Deploy** — your app gets a public URL!
+4. Set main file path to `dashboard/app.py`
+5. Click Deploy— your app gets a public URL!
 
 ---
 
 ## Author
 
-**Purity wanjiku macharia** · Applied Statistics with Programming · Murang'a University  
+Purity wanjiku macharia · Applied Statistics with Programming · Murang'a University  
 
 
